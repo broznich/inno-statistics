@@ -108,7 +108,7 @@ App.prototype = {
         
         var request = new XMLHttpRequest();
         
-        request.open("GET", url + "/statistics", true);
+        request.open("GET", url + "statistics", true);
         request.onreadystatechange = function () {
             if (this.readyState === 4 && this.status === 200) {
                 var text = this.responseText;
