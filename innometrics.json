@@ -1,0 +1,18 @@
+{
+    "version_name": "estatistics",
+    "version_description": "Events statistics",
+    "pages": [{
+        "name": "Events statistics",
+        "type": "bundled",
+        "content": "frontend/stream.html"
+    },{
+        "name": "Settings",
+        "type": "bundled",
+        "content": "frontend/settings.html"
+    }],
+    "permissions": ["stream", "profile.update", "profile.read", "app.read.own"],
+    "runtime": {
+        "language": "node",
+        "version": "0.10"
+    }
+}

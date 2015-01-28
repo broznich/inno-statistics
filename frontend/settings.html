@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Events statistics - settings</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="https://yastatic.net/bootstrap/3.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <div class="page-header">
+            <h3>Events statistics settings:</h3>
+        </div>
+        <form name="settings" id="settings-form" action="#">
+            <div class="row">
+                <div class="col-md-4"><p>Color of progressbar</p></div>
+                <div class="col-md-8">
+                    <select name="color">
+                        <option value="green">green</option>
+                        <option value="blue">blue</option>
+                        <option value="orange">orange</option>
+                        <option value="red">red</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"><p>Show percent</p></div>
+                <div class="col-md-8">
+                    <input type="checkbox" name="prc">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"><p>Show count of events</p></div>
+                <div class="col-md-8">
+                    <input type="checkbox" name="count">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12"><input type="submit" value="Save"></div>
+            </div>
+        </form>
+        </div>
+        
+        <script src="https://yastatic.net/jquery/2.1.1/jquery.min.js"></script>
+        <!-- You can use minified version of inno-helper -->
+        <!--
+        <script type="text/javascript" src="//s3.amazonaws.com/dc.customer.dev/helper/live/inno-helper-min.js"></script>
+        -->
+        <script type="text/javascript" src="//s3.amazonaws.com/dc.customer.dev/helper/live/inno-helper.js"></script>
+        <script type="text/javascript" src="https://yastatic.net/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/settings.js"></script>
+    </body>
+</html>

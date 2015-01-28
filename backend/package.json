@@ -1,0 +1,20 @@
+{
+  "name": "estatistics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "PORT=3000 node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.3",
+    "express": "^4.0.0",
+    "request": "^2.45.0",
+    "sqlite3": "^3.0.4"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
